@@ -21,13 +21,18 @@ var hierarchy =
     [ "DAO.iVoteDAO", "interface_d_a_o_1_1i_vote_d_a_o.html", [
       [ "DAO.VoteOracleDAO", "class_d_a_o_1_1_vote_oracle_d_a_o.html", null ]
     ] ],
+    [ "JButton", null, [
+      [ "GUI.BoardButton", "class_g_u_i_1_1_board_button.html", null ]
+    ] ],
     [ "JFrame", null, [
       [ "GUI.GUI", "class_g_u_i_1_1_g_u_i.html", null ]
     ] ],
     [ "JPanel", null, [
       [ "GUI.AllBoardsPanel", "class_g_u_i_1_1_all_boards_panel.html", null ],
+      [ "GUI.ChangePasswordPanel", "class_g_u_i_1_1_change_password_panel.html", null ],
       [ "GUI.LoginPanel", "class_g_u_i_1_1_login_panel.html", null ],
       [ "GUI.MainPanel", "class_g_u_i_1_1_main_panel.html", null ],
+      [ "GUI.SignUpPanel", "class_g_u_i_1_1_sign_up_panel.html", null ],
       [ "GUI.SingleBoardPanel", "class_g_u_i_1_1_single_board_panel.html", null ],
       [ "GUI.SinglePostPanel", "class_g_u_i_1_1_single_post_panel.html", null ]
     ] ],
@@ -39,9 +44,11 @@ var hierarchy =
     [ "Models.UserLogin", "class_models_1_1_user_login.html", null ],
     [ "ActionListener", null, [
       [ "GUI.AllBoardsPanel", "class_g_u_i_1_1_all_boards_panel.html", null ],
+      [ "GUI.ChangePasswordPanel", "class_g_u_i_1_1_change_password_panel.html", null ],
       [ "GUI.GUI", "class_g_u_i_1_1_g_u_i.html", null ],
       [ "GUI.LoginPanel", "class_g_u_i_1_1_login_panel.html", null ],
       [ "GUI.MainPanel", "class_g_u_i_1_1_main_panel.html", null ],
+      [ "GUI.SignUpPanel", "class_g_u_i_1_1_sign_up_panel.html", null ],
       [ "GUI.SingleBoardPanel", "class_g_u_i_1_1_single_board_panel.html", null ],
       [ "GUI.SinglePostPanel", "class_g_u_i_1_1_single_post_panel.html", null ]
     ] ]

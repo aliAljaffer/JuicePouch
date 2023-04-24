@@ -125,6 +125,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3c5876fd0b19c26653fa6a139c295143"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63a3e726882a8084eda27756061cb790"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_a_o_1_1_vote_oracle_d_a_o.html#a63a3e726882a8084eda27756061cb790">HasAlreadyVoted</a> (<a class="el" href="class_models_1_1_user.html">User</a> me, int id)</td></tr>
 <tr class="separator:a63a3e726882a8084eda27756061cb790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1c7eaca669a5bb50cd067ade1910bad"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_a_o_1_1_vote_oracle_d_a_o.html#ad1c7eaca669a5bb50cd067ade1910bad">AddTransparentVote</a> (String username, int postOrCommentId)</td></tr>
+<tr class="separator:ad1c7eaca669a5bb50cd067ade1910bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2416259b24e466babb643011d7273d82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_a_o_1_1_vote_oracle_d_a_o.html#a2416259b24e466babb643011d7273d82">RemoveVotesForDeletedPostOrComment</a> (int postOrCommentId)</td></tr>
+<tr class="separator:a2416259b24e466babb643011d7273d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30a0d85644d380b102cc3230bd71e320"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_d_a_o_1_1i_vote_d_a_o.html#a30a0d85644d380b102cc3230bd71e320">AddUpVotePost</a> (<a class="el" href="class_models_1_1_user.html">User</a> me, <a class="el" href="class_models_1_1_post.html">Post</a> post)</td></tr>
 <tr class="separator:a30a0d85644d380b102cc3230bd71e320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3d488fe4e757924a9e60cab78315e6f"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_d_a_o_1_1i_vote_d_a_o.html#ad3d488fe4e757924a9e60cab78315e6f">AddDownVotePost</a> (<a class="el" href="class_models_1_1_user.html">User</a> me, <a class="el" href="class_models_1_1_post.html">Post</a> post)</td></tr>
@@ -139,6 +143,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a18bf4bec22db7ecd73591e96f0374517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f74928afab86514dff05ac811596f1d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_d_a_o_1_1i_vote_d_a_o.html#a8f74928afab86514dff05ac811596f1d">HasAlreadyVoted</a> (<a class="el" href="class_models_1_1_user.html">User</a> me, int id)</td></tr>
 <tr class="separator:a8f74928afab86514dff05ac811596f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefdb38401da7abbe1e41cca04f05a19e"><td class="memItemLeft" align="right" valign="top"><a id="aefdb38401da7abbe1e41cca04f05a19e" name="aefdb38401da7abbe1e41cca04f05a19e"></a>
+boolean&#160;</td><td class="memItemRight" valign="bottom"><b>AddTransparentVote</b> (String username, int postId)</td></tr>
+<tr class="separator:aefdb38401da7abbe1e41cca04f05a19e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb05b6ee5360597cdadffba3396b34b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_d_a_o_1_1i_vote_d_a_o.html#adb05b6ee5360597cdadffba3396b34b6">RemoveVotesForDeletedPostOrComment</a> (int postOrCommentId)</td></tr>
+<tr class="separator:adb05b6ee5360597cdadffba3396b34b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -220,6 +229,36 @@ Connection&#160;</td><td class="memItemRight" valign="bottom"><b>conn</b></td></
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A boolean value, to indicate the success or failure of the SQL query </dd></dl>
+
+<p>Implements <a class="el" href="interface_d_a_o_1_1i_vote_d_a_o.html">DAO.iVoteDAO</a>.</p>
+
+</div>
+</div>
+<a id="ad1c7eaca669a5bb50cd067ade1910bad" name="ad1c7eaca669a5bb50cd067ade1910bad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1c7eaca669a5bb50cd067ade1910bad">&#9670;&#160;</a></span>AddTransparentVote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean DAO.VoteOracleDAO.AddTransparentVote </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>username</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>postOrCommentId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 <p>Implements <a class="el" href="interface_d_a_o_1_1i_vote_d_a_o.html">DAO.iVoteDAO</a>.</p>
 
@@ -415,6 +454,33 @@ Connection&#160;</td><td class="memItemRight" valign="bottom"><b>conn</b></td></
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A boolean value, to indicate the success or failure of the SQL query. </dd></dl>
+
+<p>Implements <a class="el" href="interface_d_a_o_1_1i_vote_d_a_o.html">DAO.iVoteDAO</a>.</p>
+
+</div>
+</div>
+<a id="a2416259b24e466babb643011d7273d82" name="a2416259b24e466babb643011d7273d82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2416259b24e466babb643011d7273d82">&#9670;&#160;</a></span>RemoveVotesForDeletedPostOrComment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DAO.VoteOracleDAO.RemoveVotesForDeletedPostOrComment </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>postOrCommentId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes user votes for a deleted post or comment from the database.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">postOrCommentId</td><td>ID of a post or comment that has been deleted and for which the corresponding user votes need to be removed from the database. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="interface_d_a_o_1_1i_vote_d_a_o.html">DAO.iVoteDAO</a>.</p>
 

@@ -108,6 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2c33cbbece8f710beabd8042a77eba1"><td class="memItemLeft" align="right" valign="top"><a id="ab2c33cbbece8f710beabd8042a77eba1" name="ab2c33cbbece8f710beabd8042a77eba1"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>MainPanel</b> (<a class="el" href="class_g_u_i_1_1_g_u_i.html">GUI</a> gui)</td></tr>
 <tr class="separator:ab2c33cbbece8f710beabd8042a77eba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0897c4612eb40e693a1b851e948b9d9a"><td class="memItemLeft" align="right" valign="top"><a id="a0897c4612eb40e693a1b851e948b9d9a" name="a0897c4612eb40e693a1b851e948b9d9a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>createBoardsOnMain</b> ()</td></tr>
+<tr class="separator:a0897c4612eb40e693a1b851e948b9d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcdc0655345f1182a65d6de6ac3f0fbf"><td class="memItemLeft" align="right" valign="top"><a id="adcdc0655345f1182a65d6de6ac3f0fbf" name="adcdc0655345f1182a65d6de6ac3f0fbf"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>actionPerformed</b> (ActionEvent e)</td></tr>
 <tr class="separator:adcdc0655345f1182a65d6de6ac3f0fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,14 +127,26 @@ JButton&#160;</td><td class="memItemRight" valign="bottom"><b>changePasswordButt
 JButton&#160;</td><td class="memItemRight" valign="bottom"><b>logoutButton</b> = new JButton(&quot;Log Out&quot;)</td></tr>
 <tr class="separator:a366191a6b042ce48d1fd024660a2e53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8c5595508ac6b67276992f3d81ce01c"><td class="memItemLeft" align="right" valign="top"><a id="ac8c5595508ac6b67276992f3d81ce01c" name="ac8c5595508ac6b67276992f3d81ce01c"></a>
-JButton&#160;</td><td class="memItemRight" valign="bottom"><b>viewAllBoardsButton</b> = new JButton(&quot;View Pouches&quot;)</td></tr>
+JButton&#160;</td><td class="memItemRight" valign="bottom"><b>viewAllBoardsButton</b> = new JButton(&quot;Manage Subs&quot;)</td></tr>
 <tr class="separator:ac8c5595508ac6b67276992f3d81ce01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a694b1b517de17f64d4d109e1f084c3"><td class="memItemLeft" align="right" valign="top"><a id="a8a694b1b517de17f64d4d109e1f084c3" name="a8a694b1b517de17f64d4d109e1f084c3"></a>
-JLabel&#160;</td><td class="memItemRight" valign="bottom"><b>titleLabel</b> = new JLabel(&quot;Juice Pouch&quot;)</td></tr>
+JLabel&#160;</td><td class="memItemRight" valign="bottom"><b>titleLabel</b> = new JLabel(&quot;Juice Pouch &quot;)</td></tr>
 <tr class="separator:a8a694b1b517de17f64d4d109e1f084c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fed4ebb2fb414675f758837ffc5a1bd"><td class="memItemLeft" align="right" valign="top"><a id="a0fed4ebb2fb414675f758837ffc5a1bd" name="a0fed4ebb2fb414675f758837ffc5a1bd"></a>
 JPanel&#160;</td><td class="memItemRight" valign="bottom"><b>mainComponentsPanel</b></td></tr>
 <tr class="separator:a0fed4ebb2fb414675f758837ffc5a1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7883111a17d57ecbad414e31a692b678"><td class="memItemLeft" align="right" valign="top"><a id="a7883111a17d57ecbad414e31a692b678" name="a7883111a17d57ecbad414e31a692b678"></a>
+JScrollPane&#160;</td><td class="memItemRight" valign="bottom"><b>scrollPane</b></td></tr>
+<tr class="separator:a7883111a17d57ecbad414e31a692b678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5939fdcd6c0e4270b8d0d922ee976cdb"><td class="memItemLeft" align="right" valign="top"><a id="a5939fdcd6c0e4270b8d0d922ee976cdb" name="a5939fdcd6c0e4270b8d0d922ee976cdb"></a>
+JPanel&#160;</td><td class="memItemRight" valign="bottom"><b>mainBoardsPanel</b></td></tr>
+<tr class="separator:a5939fdcd6c0e4270b8d0d922ee976cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae734ea3a347220879cbb112dc9adb7f4"><td class="memItemLeft" align="right" valign="top"><a id="ae734ea3a347220879cbb112dc9adb7f4" name="ae734ea3a347220879cbb112dc9adb7f4"></a>
+LinkedList&lt; <a class="el" href="class_models_1_1_board.html">Board</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>myBoards</b> = new LinkedList&lt;&gt;()</td></tr>
+<tr class="separator:ae734ea3a347220879cbb112dc9adb7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5178d6c9d5df879ceb29195df7fb9df3"><td class="memItemLeft" align="right" valign="top"><a id="a5178d6c9d5df879ceb29195df7fb9df3" name="a5178d6c9d5df879ceb29195df7fb9df3"></a>
+LinkedList&lt; <a class="el" href="class_g_u_i_1_1_board_button.html">BoardButton</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>boardButtons</b> = new LinkedList&lt;&gt;()</td></tr>
+<tr class="separator:a5178d6c9d5df879ceb29195df7fb9df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>GUI/MainPanel.java</li>

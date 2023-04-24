@@ -6,5 +6,6 @@ var class_d_a_o_1_1_vote_oracle_d_a_o =
     [ "AddUpVotePost", "class_d_a_o_1_1_vote_oracle_d_a_o.html#a7e24706bd494028ef6fbbd4e9d03b424", null ],
     [ "HasAlreadyVoted", "class_d_a_o_1_1_vote_oracle_d_a_o.html#a63a3e726882a8084eda27756061cb790", null ],
     [ "RemoveVoteFromComment", "class_d_a_o_1_1_vote_oracle_d_a_o.html#a3c5876fd0b19c26653fa6a139c295143", null ],
-    [ "RemoveVoteFromPost", "class_d_a_o_1_1_vote_oracle_d_a_o.html#a3e302746479120137ab21ec2acc5921f", null ]
+    [ "RemoveVoteFromPost", "class_d_a_o_1_1_vote_oracle_d_a_o.html#a3e302746479120137ab21ec2acc5921f", null ],
+    [ "RemoveVotesForDeletedPostOrComment", "class_d_a_o_1_1_vote_oracle_d_a_o.html#a2416259b24e466babb643011d7273d82", null ]
 ];

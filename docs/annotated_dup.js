@@ -12,9 +12,12 @@ var annotated_dup =
     ] ],
     [ "GUI", null, [
       [ "AllBoardsPanel", "class_g_u_i_1_1_all_boards_panel.html", null ],
+      [ "BoardButton", "class_g_u_i_1_1_board_button.html", null ],
+      [ "ChangePasswordPanel", "class_g_u_i_1_1_change_password_panel.html", null ],
       [ "GUI", "class_g_u_i_1_1_g_u_i.html", null ],
       [ "LoginPanel", "class_g_u_i_1_1_login_panel.html", null ],
       [ "MainPanel", "class_g_u_i_1_1_main_panel.html", null ],
+      [ "SignUpPanel", "class_g_u_i_1_1_sign_up_panel.html", null ],
       [ "SingleBoardPanel", "class_g_u_i_1_1_single_board_panel.html", null ],
       [ "SinglePostPanel", "class_g_u_i_1_1_single_post_panel.html", null ]
     ] ],

@@ -108,9 +108,9 @@ Inheritance diagram for DAO.PostOracleDAO:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a521fa717d7f0f7607bffabb017eb4269"><td class="memItemLeft" align="right" valign="top"><a id="a521fa717d7f0f7607bffabb017eb4269" name="a521fa717d7f0f7607bffabb017eb4269"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>PostOracleDAO</b> (Connection conn)</td></tr>
-<tr class="separator:a521fa717d7f0f7607bffabb017eb4269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa83065d5b02edc9bf7fc62016b13b510"><td class="memItemLeft" align="right" valign="top"><a id="aa83065d5b02edc9bf7fc62016b13b510" name="aa83065d5b02edc9bf7fc62016b13b510"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PostOracleDAO</b> (Connection conn, <a class="el" href="interface_d_a_o_1_1i_vote_d_a_o.html">iVoteDAO</a> voteDAO)</td></tr>
+<tr class="separator:aa83065d5b02edc9bf7fc62016b13b510"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe074b14f2547639d75bf18119963311"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_a_o_1_1_post_oracle_d_a_o.html#afe074b14f2547639d75bf18119963311">CreateNewBoard</a> (<a class="el" href="class_models_1_1_user.html">User</a> boardAuthor, String boardName)</td></tr>
 <tr class="separator:afe074b14f2547639d75bf18119963311"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84aba46f3de654d2f6f18ac92e24836a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_a_o_1_1_post_oracle_d_a_o.html#a84aba46f3de654d2f6f18ac92e24836a">SubscribeToBoard</a> (<a class="el" href="class_models_1_1_user.html">User</a> subscriber, String boardName)</td></tr>
@@ -133,6 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a11c8100f8c979c087d44a9b65e8c8a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab478c550c1e44e507d366cf9ce23143a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_a_o_1_1_post_oracle_d_a_o.html#ab478c550c1e44e507d366cf9ce23143a">UpdateMostRecentPostDate</a> (<a class="el" href="class_models_1_1_board.html">Board</a> board)</td></tr>
 <tr class="separator:ab478c550c1e44e507d366cf9ce23143a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7ba744a3186243b796538627586a50"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_a_o_1_1_post_oracle_d_a_o.html#a8c7ba744a3186243b796538627586a50">GetMyNewPostId</a> (String username)</td></tr>
+<tr class="separator:a8c7ba744a3186243b796538627586a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac88477fdfe59c9efbed15bedf60acec"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_d_a_o_1_1i_post_d_a_o.html#aac88477fdfe59c9efbed15bedf60acec">CreateNewBoard</a> (<a class="el" href="class_models_1_1_user.html">User</a> me, String boardName)</td></tr>
 <tr class="separator:aac88477fdfe59c9efbed15bedf60acec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90f918108274999c196ca77a9c5a976e"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_d_a_o_1_1i_post_d_a_o.html#a90f918108274999c196ca77a9c5a976e">SubscribeToBoard</a> (<a class="el" href="class_models_1_1_user.html">User</a> me, String boardName)</td></tr>
@@ -155,12 +157,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:add6d81751b678218c111deb051026fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adae014209a18aed82521dbbc99bc1596"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_d_a_o_1_1i_post_d_a_o.html#adae014209a18aed82521dbbc99bc1596">UpdateMostRecentPostDate</a> (<a class="el" href="class_models_1_1_board.html">Board</a> board)</td></tr>
 <tr class="separator:adae014209a18aed82521dbbc99bc1596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb9e484f7f95306b70ebfe0d9fd53987"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_d_a_o_1_1i_post_d_a_o.html#adb9e484f7f95306b70ebfe0d9fd53987">GetMyNewPostId</a> (String username)</td></tr>
+<tr class="separator:adb9e484f7f95306b70ebfe0d9fd53987"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a257db265cf1071830cf3c21071907fb1"><td class="memItemLeft" align="right" valign="top"><a id="a257db265cf1071830cf3c21071907fb1" name="a257db265cf1071830cf3c21071907fb1"></a>
 final Connection&#160;</td><td class="memItemRight" valign="bottom"><b>conn</b></td></tr>
 <tr class="separator:a257db265cf1071830cf3c21071907fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3191a7d578735dffbd2ba08484457d6f"><td class="memItemLeft" align="right" valign="top"><a id="a3191a7d578735dffbd2ba08484457d6f" name="a3191a7d578735dffbd2ba08484457d6f"></a>
+final <a class="el" href="interface_d_a_o_1_1i_vote_d_a_o.html">iVoteDAO</a>&#160;</td><td class="memItemRight" valign="bottom"><b>voteDAO</b></td></tr>
+<tr class="separator:a3191a7d578735dffbd2ba08484457d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac96a82d0568fcb3a9c0475e7d3f6ff6b" name="ac96a82d0568fcb3a9c0475e7d3f6ff6b"></a>
@@ -380,6 +387,34 @@ final Connection&#160;</td><td class="memItemRight" valign="bottom"><b>conn</b><
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A Post object that is the most recent </dd></dl>
+
+<p>Implements <a class="el" href="interface_d_a_o_1_1i_post_d_a_o.html">DAO.iPostDAO</a>.</p>
+
+</div>
+</div>
+<a id="a8c7ba744a3186243b796538627586a50" name="a8c7ba744a3186243b796538627586a50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c7ba744a3186243b796538627586a50">&#9670;&#160;</a></span>GetMyNewPostId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DAO.PostOracleDAO.GetMyNewPostId </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>username</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves the latest post ID for a given username from the database.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">username</td><td>The username of the user whose latest post ID is to be retrieved. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The method returns an integer value representing the latest post ID of a given user. </dd></dl>
 
 <p>Implements <a class="el" href="interface_d_a_o_1_1i_post_d_a_o.html">DAO.iPostDAO</a>.</p>
 
